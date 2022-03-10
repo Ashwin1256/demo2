@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Response {
 	
 	@GetMapping("/appl/{name}")
-	// we are just checking it is working fine
+	// adding new line file
 	 ResponseEntity<String> getmessage(){
 		 
 		String name="";
